@@ -13,8 +13,9 @@
 
 @font-face {
   font-family: $font-main;
-  src: url('pastor_of_muppets-webfont.woff2') format('woff2'),
-       url('pastor_of_muppets-webfont.woff') format('woff');
+  $url: '#{$fonts-path}/pastor_of_muppets-webfont';
+  src: url('#{$url}.woff2') format('woff2'),
+       url('#{$url}.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 

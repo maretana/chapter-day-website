@@ -9,3 +9,7 @@ $max-mobile-landscape: $min-tablet-portrait - 1;
 $max-tablet-portrait: $min-tablet-landscape - 1;
 $max-tablet-landscape: $min-desktop - 1;
 $max-desktop: 1920px;
+
+// Icons
+$icomoon-font-family: "icons";
+$icomoon-font-path: "/fonts";

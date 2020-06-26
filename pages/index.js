@@ -1,46 +1,31 @@
 import React, { useEffect, useState } from 'react'
 import Logo from '../components/Logo'
+import getUpdatedRemainingTime from '../utils/getUpdatedRemainingTime'
 
 export default function IndexPage () {
-  const [sortedStreams, setSortedStreams] = useState([])
+  const [streams, setStreams] = useState([])
   const minThreshold = 60000
   const maxThreshold = -3 * 60 * 60 * 1000
 
-  function sortStreams (streams) {
-    const past = []
-    const present = []
-    const future = []
-    streams.forEach(stream => {
-      if (stream.hasFinished || getUpdatedRemainingTime(stream.remainingTime) < maxThreshold) {
-        past.push(stream)
-      } else if (getUpdatedRemainingTime(stream.remainingTime) > minThreshold) {
-        future.push(stream)
-      } else {
-        present.push(stream)
-      }
+  function filterStreams (streams) {
+    return streams.filter(stream => {
+      return getUpdatedRemainingTime(stream.remainingTime) > minThreshold &&
+      !(stream.hasFinished && getUpdatedRemainingTime(stream.remainingTime) < maxThreshold)
     })
-
-    return present.concat(future)
-  }
-
-  function getUpdatedRemainingTime (remainingTime) {
-    return remainingTime - (Date.now() - window.countStart)
   }
 
   useEffect(() => {
     window.countStart = Date.now()
     fetch('/api/getEvents').then(response => response.json()).then(events => {
-      setSortedStreams(sortStreams(
-        events.sort((a, b) => b.remainingTime - a.remainingTime)
-      ))
+      setStreams(filterStreams(events))
     })
   }, [])
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const streams = sortStreams(sortedStreams)
-      if (streams.length && sortedStreams[0].band !== streams[0].band) {
-        setSortedStreams(sortStreams(sortedStreams))
+      const filtered = filterStreams(streams)
+      if (filtered.length && streams[0].band !== filtered[0].band) {
+        setStreams(filterStreams(streams))
       }
     }, 1000)
     return () => clearInterval(interval)

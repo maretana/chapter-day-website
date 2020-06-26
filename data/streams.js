@@ -68,7 +68,7 @@ export default [
     band: 'Fisura',
     country: 'Colombia',
     countryCode: 'co',
-    startTime: new Date('2020-06-27T03:00:00.000-06:00'),
+    startTime: new Date('2020-06-27T15:00:00.000-06:00'),
     link: 'https://www.facebook.com/events/1393070404209733/'
   },
   {

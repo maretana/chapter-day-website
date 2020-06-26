@@ -10,6 +10,10 @@ $max-tablet-portrait: $min-tablet-landscape - 1;
 $max-tablet-landscape: $min-desktop - 1;
 $max-desktop: 1920px;
 
+// Fonts
+$fonts-path: '/fonts';
+$font-main: 'PastorOfMuppets';
+
 // Icons
 $icomoon-font-family: "icons";
-$icomoon-font-path: "/fonts";
+$icomoon-font-path: $fonts-path;

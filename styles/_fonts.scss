@@ -10,3 +10,12 @@
   font-style: normal;
   font-display: block;
 }
+
+@font-face {
+  font-family: $font-main;
+  src: url('pastor_of_muppets-webfont.woff2') format('woff2'),
+       url('pastor_of_muppets-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}

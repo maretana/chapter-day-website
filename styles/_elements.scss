@@ -7,4 +7,13 @@ body {
   background-image: url('/background.jpg');
   background-repeat: repeat;
   color: white;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  background-color: initial;
+   &:focus {
+     outline: none;
+   }
 }

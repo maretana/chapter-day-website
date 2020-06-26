@@ -1,0 +1,58 @@
+@import '../../styles/shared';
+
+.placeholder {
+  display: none;
+  height: 52px;
+
+  @media only screen and (max-width: $max-tablet-portrait) {
+    display: block;
+  }
+}
+
+.listItem {
+  text-align: center;
+  a {
+    color: white;
+    font-family: $font-main;
+    text-decoration: none;
+  }
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: black;
+  font-size: 50px;
+
+  &Button {
+    color: white;
+    margin-left: auto;
+    font-size: 0.7em;
+    display: block;
+
+    &Container {
+      padding: 5px;
+    }
+  }
+
+  &List {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    transition: height 0.3s ease-out;
+    overflow: hidden;
+
+    &.open {
+      height: 300px;
+    }
+
+    &.close {
+      height: 0;
+      padding: 0;
+    }
+  }
+}

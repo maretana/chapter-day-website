@@ -1,0 +1,11 @@
+// Breakpoints
+$min-mobile-landscape: 420px;
+$min-tablet-portrait: 768px;
+$min-tablet-landscape: 1024px;
+$min-desktop: 1366px;
+
+$max-mobile-portrait: $min-mobile-landscape - 1;
+$max-mobile-landscape: $min-tablet-portrait - 1;
+$max-tablet-portrait: $min-tablet-landscape - 1;
+$max-tablet-landscape: $min-desktop - 1;
+$max-desktop: 1920px;

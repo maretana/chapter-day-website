@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Logo from '../components/Logo'
 import getUpdatedRemainingTime from '../utils/getUpdatedRemainingTime'
+import StreamsList from '../components/StreamsList/StreamsList'
 
 export default function IndexPage () {
   const [streams, setStreams] = useState([])
@@ -23,10 +24,7 @@ export default function IndexPage () {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const filtered = filterStreams(streams)
-      if (filtered.length && streams[0].band !== filtered[0].band) {
-        setStreams(filterStreams(streams))
-      }
+      setStreams(filterStreams(streams))
     }, 1000)
     return () => clearInterval(interval)
   }, [])
@@ -34,6 +32,7 @@ export default function IndexPage () {
   return (
     <div>
       <Logo />
+      <StreamsList streams={streams} />
     </div>
   )
 }

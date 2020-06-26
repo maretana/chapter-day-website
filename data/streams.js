@@ -29,7 +29,7 @@ export default [
     country: 'Guatemala',
     countryCode: 'gt',
     startTime: new Date('2020-06-27T10:00:00.000-06:00'),
-    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/'
+    link: 'https://www.facebook.com/guatemallica/'
   },
   {
     chapter: 'Metallitarium',
@@ -61,7 +61,7 @@ export default [
     country: 'Greece',
     countryCode: 'gr',
     startTime: new Date('2020-06-27T14:00:00.000-06:00'),
-    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/'
+    link: 'https://www.facebook.com/events/538171243528487/'
   },
   {
     chapter: 'Garage Inc. Colombia / Metallicolombia / The Bogota Straw / The Snake Pit / Lords of Hardwired',
@@ -77,7 +77,7 @@ export default [
     country: 'Costa Rica',
     countryCode: 'cr',
     startTime: new Date('2020-06-27T16:40:00.000-06:00'),
-    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/'
+    link: 'https://www.facebook.com/events/933760847097391/'
   },
   {
     chapter: 'Argentina For All',
@@ -85,7 +85,7 @@ export default [
     country: 'Argentina',
     countryCode: 'ar',
     startTime: new Date('2020-06-27T17:00:00.000-06:00'),
-    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/'
+    link: 'https://www.facebook.com/events/262627078168957/'
   },
   {
     chapter: 'Master of Paraguay',
@@ -93,7 +93,7 @@ export default [
     country: 'Paraguay',
     countryCode: 'py',
     startTime: new Date('2020-06-27T17:40:00.000-06:00'),
-    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/'
+    link: 'https://www.facebook.com/events/577664293168045/'
   },
   {
     chapter: 'Chilean Destroy',
@@ -101,7 +101,7 @@ export default [
     country: 'Chile',
     countryCode: 'cl',
     startTime: new Date('2020-06-27T18:20:00.000-06:00'),
-    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/'
+    link: 'https://www.facebook.com/Tributoametallica/'
   },
   {
     chapter: 'Mexican Militia / DGO Gives you Heavy!',
@@ -117,7 +117,7 @@ export default [
     country: 'Chile',
     countryCode: 'cl',
     startTime: new Date('2020-06-27T20:00:00.000-06:00'),
-    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/'
+    link: 'https://www.facebook.com/pg/CHTSD504'
   },
   {
     chapter: 'Mexitallica',
@@ -125,7 +125,7 @@ export default [
     country: 'México',
     countryCode: 'mx',
     startTime: new Date('2020-06-27T21:00:00.000-06:00'),
-    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/'
+    link: 'https://www.facebook.com/pg/MexitallicaChapter'
   },
   {
     chapter: 'Utah Metallica Chapter',

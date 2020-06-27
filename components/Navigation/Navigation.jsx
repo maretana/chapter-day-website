@@ -22,13 +22,13 @@ export default function Navigation () {
         </div>
         <ul className={navigationListClassName}>
           <li className={styles.listItem}>
-            <Link href='/'><a>{getTitleString('Home')}</a></Link>
+            <Link href='/'><a onClick={toggleNavigation}>{getTitleString('Home')}</a></Link>
           </li>
           <li className={styles.listItem}>
-            <Link href='/upcoming'><a>{getTitleString('Upcoming Streams')}</a></Link>
+            <Link href='/past'><a onClick={toggleNavigation}>{getTitleString('Past Streams')}</a></Link>
           </li>
           <li className={styles.listItem}>
-            <Link href='/past'><a>{getTitleString('Past Streams')}</a></Link>
+            <a href='https://www.facebook.com/MetallicaCHapterDay/' target='_blank' rel='noopener noreferrer'>{getTitleString('Facebook Page')}</a>
           </li>
 
         </ul>

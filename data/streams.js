@@ -32,7 +32,7 @@ export default [
     country: 'Peru',
     countryCode: 'pe',
     startTime: new Date('2020-06-27T09:30:00.000-06:00'),
-    link: 'https://www.facebook.com/PeruvianMetalMilitia/posts/10156868682105738'
+    link: 'https://www.facebook.com/PeruvianMetalMilitia/videos/3094895500603189/'
   },
   {
     chapter: 'Guatemallica',

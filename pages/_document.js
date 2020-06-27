@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <meta property='og:image' content='/social.jpg' />
           <meta property='og:image' content='https://metallica-chapter-day.vercel.app/social.jpg' />
           <meta property='og:image:width' content='1280px' />
-          <meta property='og:image:height' content='900px'
+          <meta property='og:image:height' content='900px' />
         </Head>
         <body>
           <Main />

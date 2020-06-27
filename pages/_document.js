@@ -18,8 +18,14 @@ class MyDocument extends Document {
           <link href='https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap' rel='stylesheet' />
           <meta httpEquiv='Cache-Control' content='max-age=200' />
           <meta property='og:image' content='https://metallica-chapter-day.vercel.app/social.jpg' />
-          <meta property='og:image:width' content='1280px' />
-          <meta property='og:image:height' content='900px' />
+          <meta property='og:image:width' content='1280' />
+          <meta property='og:image:height' content='900' />
+          <meta property='og:image:alt' content='Metallica Chapter Day - Live Stream' />
+          <meta property='og:image:type' content='image/jpeg' />
+          <meta property='og:url' content='https://metallica-chapter-day.vercel.app/' />
+          <meta property='og:title' content='Metallica Chapter Day - Live Stream' />
+          <meta property='og:type' content='website' />
+          <meta property='og:description' content="It's Metallica Chapter Day 2020! Checkout the live streams and schedules of all the bands and chapters celebrating this day." />
         </Head>
         <body>
           <Main />

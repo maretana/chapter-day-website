@@ -2,10 +2,12 @@ import React from 'react'
 import styles from './StreamListItem.module.scss'
 import getTitleString from '../../../../utils/getTitleString'
 import getUpdatedRemainingTime from '../../../../utils/getUpdatedRemainingTime'
+import StreamPreview from '../StreamPreview'
+import { MIN_CURRENT_STREAM_AGE } from '../../../../utils/consts'
 
 export default function StreamListItem ({ stream }) {
   const remainingTime = getUpdatedRemainingTime(stream.remainingTime)
-  const isFuture = remainingTime > 60000
+  const isFuture = remainingTime > MIN_CURRENT_STREAM_AGE
 
   function displayTime () {
     const seconds = 1000
@@ -30,6 +32,7 @@ export default function StreamListItem ({ stream }) {
         {isFuture && (
           <p className={styles.countdown}>Remaining time: {displayTime()}</p>
         )}
+        <StreamPreview link={stream.link} />
       </div>
     </li>
   )

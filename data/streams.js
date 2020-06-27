@@ -9,12 +9,22 @@ export default [
     hasFinished: true
   },
   {
+    chapter: 'Blackened UK',
+    band: 'The Blackened House Band',
+    country: 'United Kingdom',
+    countryCode: 'gb',
+    startTime: new Date('2020-06-27T06:15:00.000-06:00'),
+    link: 'https://www.facebook.com/metuk532/videos/265016111458851',
+    hasFinished: true
+  },
+  {
     chapter: 'Don\'t Tread On Rio',
     band: 'So What!',
     country: 'Brazil',
     countryCode: 'br',
     startTime: new Date('2020-06-27T08:00:00.000-06:00'),
-    link: 'https://www.facebook.com/groups/dtormc/permalink/612992976309639/'
+    link: 'https://www.facebook.com/groups/dtormc/permalink/612992976309639/',
+    hasFinished: true
   },
   {
     chapter: 'Peruvian Metal Militia',
@@ -39,14 +49,6 @@ export default [
     countryCode: 'it',
     startTime: new Date('2020-06-27T10:00:00.000-06:00'),
     link: 'https://www.facebook.com/events/260673088363961/'
-  },
-  {
-    chapter: 'Blackened UK',
-    band: 'The Blackened House Band',
-    country: 'United Kingdom',
-    countryCode: 'gb',
-    startTime: new Date('2020-06-27T10:00:00.000-06:00'),
-    link: 'https://www.facebook.com/metuk532/videos/956160108140636/'
   },
   {
     chapter: 'Metallitarium',

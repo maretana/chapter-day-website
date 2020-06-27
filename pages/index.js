@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Logo from '../components/Logo'
 import StreamsList from '../components/StreamsList/StreamsList'
 import getUpdatedRemainingTime from '../utils/getUpdatedRemainingTime'
-
-const maxStreamAge = -2 * 60 * 60 * 1000
+import { STREAM_OLDEST_AGE } from '../utils/consts'
 
 export default function IndexPage () {
   const [streams, setStreams] = useState([])
@@ -20,7 +19,7 @@ export default function IndexPage () {
     const interval = setInterval(() => {
       const nextStreams = streams.filter(stream => {
         const remainingTime = getUpdatedRemainingTime(stream.remainingTime)
-        return remainingTime > maxStreamAge
+        return remainingTime > STREAM_OLDEST_AGE && !stream.hasFinished
       })
       setFilteredStreams(nextStreams)
     })

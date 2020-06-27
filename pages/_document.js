@@ -17,7 +17,6 @@ class MyDocument extends Document {
           <link rel='manifest' href='/site.webmanifest' />
           <link href='https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap' rel='stylesheet' />
           <meta httpEquiv='Cache-Control' content='max-age=200' />
-          <meta property='og:image' content='/social.jpg' />
           <meta property='og:image' content='https://metallica-chapter-day.vercel.app/social.jpg' />
           <meta property='og:image:width' content='1280px' />
           <meta property='og:image:height' content='900px' />

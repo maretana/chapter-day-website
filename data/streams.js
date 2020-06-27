@@ -47,6 +47,7 @@ export default [
     countryCode: 'de',
     startTime: new Date('2020-06-27T12:00:00.000-06:00'),
     link: 'http://www.mytallica.com/livestream/'
+    // link: 'https://www.youtube.com/embed/wHn1_QVoXGM'
   },
   {
     chapter: 'Metallitarium',

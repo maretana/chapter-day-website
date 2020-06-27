@@ -39,8 +39,8 @@ export default [
     band: 'Dehaan',
     country: 'Guatemala',
     countryCode: 'gt',
-    startTime: new Date('2020-06-27T10:00:00.000-06:00'),
-    link: 'https://www.facebook.com/guatemallica/'
+    startTime: new Date('2020-06-27T11:00:00.000-06:00'),
+    link: 'https://www.facebook.com/guatemallica/videos/341859580135350/'
   },
   {
     chapter: 'My Friends of Sicily',
@@ -48,7 +48,8 @@ export default [
     country: 'Italia',
     countryCode: 'it',
     startTime: new Date('2020-06-27T10:00:00.000-06:00'),
-    link: 'https://www.facebook.com/897325203935478/videos/641689326419066/?v=641689326419066'
+    link: 'https://www.facebook.com/897325203935478/videos/641689326419066/?v=641689326419066',
+    hasEnded: true
   },
   {
     chapter: 'Metallitarium',

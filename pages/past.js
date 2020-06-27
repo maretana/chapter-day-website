@@ -20,7 +20,7 @@ export default function PastStreamsPage () {
     const interval = setInterval(() => {
       const nextStreams = streams.filter(stream => {
         const remainingTime = getUpdatedRemainingTime(stream.remainingTime)
-        return remainingTime <= STREAM_OLDEST_AGE && stream.hasFinished
+        return remainingTime <= STREAM_OLDEST_AGE || stream.hasFinished
       })
       setFilteredStreams(nextStreams)
     })

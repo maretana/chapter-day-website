@@ -20,7 +20,7 @@ export default function Footer () {
       </div>
       <div className={styles.authorInfo}>
         <p className={styles.text}>Website by Mario Retana</p>
-        <SocialLink className={styles.socialLink} href='https://github.com/maretana'>
+        <SocialLink className={styles.socialLink} href='https://github.com/maretana/chapter-day-website'>
           <Icon icon='icon-github' />
         </SocialLink>
         <SocialLink className={styles.socialLink} href='https://www.linkedin.com/in/marioretana/'>

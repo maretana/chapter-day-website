@@ -5,7 +5,8 @@ export default [
     country: 'Australia',
     countryCode: 'au',
     startTime: new Date('2020-06-27T04:00:00.000-06:00'),
-    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/'
+    link: 'https://www.facebook.com/damageincmetallica/videos/684207485766824/',
+    hasFinished: true
   },
   {
     chapter: 'Don\'t Tread On Rio',

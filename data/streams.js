@@ -33,6 +33,22 @@ export default [
     link: 'https://www.facebook.com/guatemallica/'
   },
   {
+    chapter: 'My Friends of Sicily',
+    band: 'Meccaninca',
+    country: 'Italia',
+    countryCode: 'it',
+    startTime: new Date('2020-06-27T10:00:00.000-06:00'),
+    link: 'https://www.facebook.com/events/260673088363961/'
+  },
+  {
+    chapter: 'Blackened UK',
+    band: 'The Blackened House Band',
+    country: 'United Kingdom',
+    countryCode: 'gb',
+    startTime: new Date('2020-06-27T10:00:00.000-06:00'),
+    link: 'https://www.facebook.com/metuk532/videos/956160108140636/'
+  },
+  {
     chapter: 'Metallitarium',
     band: 'Seek em All',
     country: 'España',
@@ -130,7 +146,7 @@ export default [
     link: 'https://www.facebook.com/pg/MexitallicaChapter'
   },
   {
-    chapter: 'Utah Metallica Chapter',
+    chapter: 'Harvesters of Utah',
     band: 'The Four Horsemen',
     country: 'USA',
     countryCode: 'us',

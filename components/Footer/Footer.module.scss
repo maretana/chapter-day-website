@@ -1,3 +1,5 @@
+@import '../../styles/shared';
+
 .footer {
   background-color: black;
   padding: 15px 20px;
@@ -17,4 +19,12 @@
 
 .text {
   margin-bottom: .5em;
+}
+
+@media only screen and (min-width: $min-mobile-landscape) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

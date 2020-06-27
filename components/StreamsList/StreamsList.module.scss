@@ -1,6 +1,24 @@
+@import '../../styles/shared';
+
 .emptyList {
   $font-size: 20px;
   text-align: center;
   font-size: $font-size;
   margin: 52% 0;
+}
+
+.streamsList {
+
+  @media only screen and (min-width: $min-mobile-landscape) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    > * {
+      flex-shrink: 2;
+      width: 45%;
+    }
+  }
+
 }

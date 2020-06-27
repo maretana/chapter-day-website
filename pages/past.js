@@ -11,7 +11,10 @@ export default function PastStreamsPage () {
 
   useEffect(() => {
     window.countStart = Date.now()
-    fetch('/api/getEvents').then(response => response.json()).then(eventsArray => {
+    fetch('https://chapterday.s3.amazonaws.com/streams.json').then(response => response.json()).then(eventsArray => {
+      eventsArray.forEach(event => {
+        event.remainingTime = new Date(event.startTime).getTime() - window.countStart
+      })
       setStreams(eventsArray)
     })
   }, [])

@@ -16,7 +16,7 @@ class MyDocument extends Document {
           <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
           <link rel='manifest' href='/site.webmanifest' />
           <link href='https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap' rel='stylesheet' />
-          <meta http-equiv='Cache-Control' content='max-age=200' />
+          <meta httpEquiv='Cache-Control' content='max-age=200' />
         </Head>
         <body>
           <Main />

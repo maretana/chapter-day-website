@@ -1,7 +1,13 @@
 @import '../../styles/shared';
 
-$icon-menu: '\e9bd';
-$icon-cross: '\ea0f';
+$icon-menu: "\e9bd";
+$icon-cross: "\ea0f";
+$icon-facebook: "\ea91";
+$icon-instagram: "\ea92";
+$icon-twitter: "\ea96";
+$icon-github: "\eab0";
+$icon-linkedin: "\eac9";
+
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -26,5 +32,30 @@ $icon-cross: '\ea0f';
 .icon-cross {
   &:before {
     content: $icon-cross; 
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook; 
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram; 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter; 
+  }
+}
+.icon-github {
+  &:before {
+    content: $icon-github; 
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin; 
   }
 }

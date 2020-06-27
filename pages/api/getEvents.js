@@ -5,6 +5,7 @@ export default (req, res) => {
   streams.forEach(stream => {
     stream.remainingTime = stream.startTime - now
   })
+  res.setHeader('Cache-Control', 's-maxage=200')
   res.statusCode = 200
   res.json(streams)
 }

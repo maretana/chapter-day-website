@@ -28,3 +28,13 @@
     justify-content: space-between;
   }
 }
+
+@media only screen and (min-width: $min-tablet-landscape) {
+  .footer {
+    font-size: 16px;
+  }
+
+  .socialLink {
+    font-size: 18px;
+  }
+}

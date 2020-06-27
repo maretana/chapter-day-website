@@ -21,8 +21,8 @@ export default [
     band: 'Whiskey / Minefield',
     country: 'Peru',
     countryCode: 'pe',
-    startTime: new Date('2020-06-27T09:00:00.000-06:00'),
-    link: 'https://www.facebook.com/events/258022205489832/'
+    startTime: new Date('2020-06-27T09:30:00.000-06:00'),
+    link: 'https://www.facebook.com/PeruvianMetalMilitia/posts/10156868682105738'
   },
   {
     chapter: 'Guatemallica',

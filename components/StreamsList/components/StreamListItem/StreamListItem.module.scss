@@ -1,0 +1,33 @@
+@import '../../../../styles/shared';
+
+$font-size: 16px;
+
+.listItem {
+  font-size: $font-size;
+  margin-bottom: 5em;
+
+   p, div {
+    margin-bottom: 0.8em
+  }
+
+  .band {
+    font-family: $font-main;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0.1em;
+  }
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+
+  &Name {
+    margin-right: 1.5em;
+  }
+
+  &Flag {
+    width: $font-size * 2;
+  }
+}

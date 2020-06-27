@@ -1,38 +1,36 @@
 import React, { useEffect, useState } from 'react'
 import Logo from '../components/Logo'
-import getUpdatedRemainingTime from '../utils/getUpdatedRemainingTime'
 import StreamsList from '../components/StreamsList/StreamsList'
+import getUpdatedRemainingTime from '../utils/getUpdatedRemainingTime'
+
+const maxStreamAge = -2 * 60 * 60 * 1000
 
 export default function IndexPage () {
   const [streams, setStreams] = useState([])
-  const minThreshold = 60000
-  const maxThreshold = -3 * 60 * 60 * 1000
-
-  function filterStreams (streams) {
-    return streams.filter(stream => {
-      return getUpdatedRemainingTime(stream.remainingTime) > minThreshold &&
-      !(stream.hasFinished && getUpdatedRemainingTime(stream.remainingTime) < maxThreshold)
-    })
-  }
+  const [filteredStreams, setFilteredStreams] = useState([])
 
   useEffect(() => {
     window.countStart = Date.now()
-    fetch('/api/getEvents').then(response => response.json()).then(events => {
-      setStreams(filterStreams(events))
+    fetch('/api/getEvents').then(response => response.json()).then(eventsArray => {
+      setStreams(eventsArray)
     })
   }, [])
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setStreams(filterStreams(streams))
-    }, 1000)
+      const nextStreams = streams.filter(stream => {
+        const remainingTime = getUpdatedRemainingTime(stream.remainingTime)
+        return remainingTime > maxStreamAge
+      })
+      setFilteredStreams(nextStreams)
+    })
     return () => clearInterval(interval)
-  }, [])
+  })
 
   return (
     <div>
       <Logo />
-      <StreamsList streams={streams} />
+      <StreamsList streams={filteredStreams} />
     </div>
   )
 }

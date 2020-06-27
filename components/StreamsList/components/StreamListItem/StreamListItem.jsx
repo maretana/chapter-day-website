@@ -23,7 +23,7 @@ export default function StreamListItem ({ stream }) {
         <p className={styles.band}>{getTitleString(stream.band)}</p>
         <p className={styles.chapter}>Presented by: {stream.chapter}</p>
         <div className={styles.country}>
-          <span className={styles.countryName}>{stream.country}</span>
+          <span className={styles.countryName}>From: {stream.country}</span>
           <img className={styles.countryFlag} src={`/flags/${stream.countryCode}.svg`} alt={`Flag of ${stream.country}`} />
         </div>
         <p className={styles.premiere}>Premiere: {(new Date(stream.startTime)).toLocaleTimeString('en-US')}</p>

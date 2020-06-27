@@ -7,7 +7,7 @@ export default function YoutubeVideo ({ url, className }) {
         src={url}
         frameborder='0'
         allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-        allowfullscreen
+        allowfullscreen='true'
       />
     </div>
   )

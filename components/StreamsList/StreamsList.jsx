@@ -8,6 +8,11 @@ export default function StreamsList ({ streams = [] }) {
       {streams.map(stream => {
         return <StreamListItem key={stream.band} stream={stream} />
       })}
+      {streams.length === 0 && (
+        <div className={styles.emptyList}>
+          <p>No streams to show in here</p>
+        </div>
+      )}
     </ul>
   )
 }

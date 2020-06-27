@@ -48,7 +48,7 @@ export default [
     country: 'Italia',
     countryCode: 'it',
     startTime: new Date('2020-06-27T10:00:00.000-06:00'),
-    link: 'https://www.facebook.com/events/260673088363961/'
+    link: 'https://www.facebook.com/897325203935478/videos/641689326419066/?v=641689326419066'
   },
   {
     chapter: 'Metallitarium',

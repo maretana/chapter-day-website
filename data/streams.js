@@ -14,7 +14,7 @@ export default [
     country: 'Brazil',
     countryCode: 'br',
     startTime: new Date('2020-06-27T08:00:00.000-06:00'),
-    link: 'https://www.facebook.com/groups/dtormc'
+    link: 'https://www.facebook.com/farpagomes/videos/3464091230290680/'
   },
   {
     chapter: 'Peruvian Metal Militia',

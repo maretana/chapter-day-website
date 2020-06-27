@@ -3,6 +3,7 @@ import Logo from '../components/Logo'
 import StreamsList from '../components/StreamsList/StreamsList'
 import getUpdatedRemainingTime from '../utils/getUpdatedRemainingTime'
 import { STREAM_OLDEST_AGE } from '../utils/consts'
+import Head from 'next/head'
 
 export default function PastStreamsPage () {
   const [streams, setStreams] = useState([])
@@ -28,6 +29,9 @@ export default function PastStreamsPage () {
 
   return (
     <div>
+      <Head>
+        <title>Metallica Chapter Day - Past Streams</title>
+      </Head>
       <Logo />
       <StreamsList streams={filteredStreams} />
     </div>

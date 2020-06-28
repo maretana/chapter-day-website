@@ -5,9 +5,9 @@ export default function YoutubeVideo ({ url, className }) {
     <div className={className}>
       <iframe
         src={url}
-        frameborder='0'
+        frameBorder='0'
         allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-        allowfullscreen='true'
+        allowFullScreen
       />
     </div>
   )

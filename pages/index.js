@@ -1,42 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Logo from '../components/Logo'
-import StreamsList from '../components/StreamsList/StreamsList'
-import getUpdatedRemainingTime from '../utils/getUpdatedRemainingTime'
-import { STREAM_OLDEST_AGE } from '../utils/consts'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function IndexPage () {
-  const [streams, setStreams] = useState([])
-  const [filteredStreams, setFilteredStreams] = useState([])
-
-  useEffect(() => {
-    window.countStart = Date.now()
-    fetch('https://chapterday.s3.amazonaws.com/streams.json').then(response => response.json()).then(eventsArray => {
-      eventsArray.forEach(event => {
-        event.remainingTime = new Date(event.startTime).getTime() - window.countStart
-      })
-      setStreams(eventsArray)
-    })
-  }, [])
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      const nextStreams = streams.filter(stream => {
-        const remainingTime = getUpdatedRemainingTime(stream.remainingTime)
-        return remainingTime > STREAM_OLDEST_AGE && !stream.hasFinished
-      })
-      setFilteredStreams(nextStreams)
-    })
-    return () => clearInterval(interval)
-  })
-
   return (
     <div>
       <Head>
         <title>Metallica Chapter Day - Live Stream</title>
       </Head>
       <Logo />
-      <StreamsList streams={filteredStreams} />
+      <div style={{ textAlign: 'center', fontSize: 20, margin: '10px 0 18vh' }}>
+        <p style={{ marginBottom: '0.5em' }}>Thanks for tuning in to Metallica Chapter Day 2020! Hope you enjoyed.</p>
+        <p style={{ marginBottom: '0.5em' }}>Please show your support to participating bands and local chapters by dropping a like or follow in their social media.</p>
+        <p style={{ marginBottom: '0.5em' }}>If you would like to re-experience some of the live streams, checkout the <Link href='/past'><a>past streams</a></Link></p>
+      </div>
     </div>
   )
 }

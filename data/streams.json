@@ -1,159 +1,198 @@
 [
   {
-    "chapter":"Melbourne Militia / Acting like a Tasmaniac",
-    "band":"Damage Inc",
-    "country":"Australia",
-    "countryCode":"au",
+    "chapter": "Melbourne Militia / Acting like a Tasmaniac",
+    "band": "Damage Inc",
+    "country": "Australia",
+    "countryCode": "au",
     "startTime": "2020-06-27T04:00:00.000-06:00",
-    "link":"https://www.facebook.com/damageincmetallica/videos/684207485766824/",
+    "link": "https://www.facebook.com/damageincmetallica/videos/684207485766824/",
     "hasFinished":true
   },
   {
-    "chapter":"Blackened UK",
-    "band":"The Blackened House Band",
-    "country":"United Kingdom",
-    "countryCode":"gb",
+    "chapter": "Blackened UK",
+    "band": "The Blackened House Band",
+    "country": "United Kingdom",
+    "countryCode": "gb",
     "startTime": "2020-06-27T06:15:00.000-06:00",
-    "link":"https://www.facebook.com/metuk532/videos/265016111458851",
+    "link": "https://www.facebook.com/metuk532/videos/265016111458851",
     "hasFinished":true
   },
   {
-    "chapter":"Don't Tread On Rio",
-    "band":"So What!",
-    "country":"Brazil",
-    "countryCode":"br",
+    "chapter": "Don't Tread On Rio",
+    "band": "So What!",
+    "country": "Brazil",
+    "countryCode": "br",
     "startTime": "2020-06-27T08:00:00.000-06:00",
-    "link":"https://www.facebook.com/groups/dtormc/permalink/612992976309639/",
+    "link": "https://www.facebook.com/groups/dtormc/permalink/612992976309639/",
     "hasFinished":true
   },
   {
-    "chapter":"Peruvian Metal Militia",
-    "band":"Whiskey / Minefield",
-    "country":"Peru",
-    "countryCode":"pe",
+    "chapter": "Peruvian Metal Militia",
+    "band": "Whiskey / Minefield",
+    "country": "Peru",
+    "countryCode": "pe",
     "startTime": "2020-06-27T09:30:00.000-06:00",
-    "link":"https://www.facebook.com/PeruvianMetalMilitia/videos/3094895500603189/",
-    "hasEnded":true
+    "link": "https://www.facebook.com/PeruvianMetalMilitia/videos/3094895500603189/",
+    "hasFinished":true
   },
   {
-    "chapter":"Guatemallica",
-    "band":"Dehaan",
-    "country":"Guatemala",
-    "countryCode":"gt",
+    "chapter": "Guatemallica",
+    "band": "Dehaan",
+    "country": "Guatemala",
+    "countryCode": "gt",
     "startTime": "2020-06-27T11:00:00.000-06:00",
-    "link":"https://www.facebook.com/guatemallica/videos/341859580135350/"
+    "link": "https://www.facebook.com/guatemallica/videos/285002789407299/",
+    "hasFinished": true
   },
   {
-    "chapter":"My Friends of Sicily",
-    "band":"Meccaninca",
-    "country":"Italia",
-    "countryCode":"it",
+    "chapter": "Guatemallica",
+    "band": "Fuel",
+    "country": "Guatemala",
+    "countryCode": "gt",
+    "startTime": "2020-06-27T11:30:00.000-06:00",
+    "link": "https://www.facebook.com/guatemallica/videos/2739582992933337/",
+    "hasFinished": true
+  },
+  {
+    "chapter": "My Friends of Sicily",
+    "band": "Meccaninca",
+    "country": "Italia",
+    "countryCode": "it",
     "startTime": "2020-06-27T10:00:00.000-06:00",
-    "link":"https://www.facebook.com/897325203935478/videos/641689326419066/?v=641689326419066",
-    "hasEnded":true
+    "link": "https://www.facebook.com/897325203935478/videos/2929952790435112/",
+    "style": {
+      "width": "31.7%"
+    },
+    "hasFinished": true
   },
   {
-    "chapter":"Metallitarium",
-    "band":"Seek em All",
-    "country":"España",
-    "countryCode":"es",
+    "chapter": "Metallitarium",
+    "band": "Seek em All",
+    "country": "España",
+    "countryCode": "es",
     "startTime": "2020-06-27T11:00:00.000-06:00",
-    "link":"http://www.instagram.com/seekemall/"
+    "link": "http://www.instagram.com/seekemall/",
+    "hasFinished": true
   },
   {
-    "chapter":"St. Germany / Metal Militia Germany",
-    "band":"My'tallica",
-    "country":"Germany",
-    "countryCode":"de",
+    "chapter": "St. Germany / Metal Militia Germany",
+    "band": "My'tallica",
+    "country": "Germany",
+    "countryCode": "de",
     "startTime": "2020-06-27T12:00:00.000-06:00",
-    "link":"http://www.mytallica.com/livestream/"
+    "link": "https://www.youtube.com/embed/qcA4UYoc-PA",
+    "hasFinished":true
   },
   {
-    "chapter":"Metallitarium",
-    "band":"Metalamania",
-    "country":"España",
-    "countryCode":"es",
+    "chapter": "Metallitarium",
+    "band": "Metalamania",
+    "country": "España",
+    "countryCode": "es",
     "startTime": "2020-06-27T13:00:00.000-06:00",
-    "link":"http://www.instagram.com/metalmaniaband/"
+    "link": "http://www.instagram.com/metalmaniaband/",
+    "hasFinished":true
   },
   {
-    "chapter":"Hellasmetallica",
-    "band":"Adrenalin",
-    "country":"Greece",
-    "countryCode":"gr",
-    "startTime": "2020-06-27T14:00:00.000-06:00",
-    "link":"https://www.facebook.com/events/538171243528487/"
+    "chapter": "Hellasmetallica",
+    "band": "Adrenalin",
+    "country": "Greece",
+    "countryCode": "gr",
+    "startTime": "2020-06-27T14:30:00.000-06:00",
+    "link": "https://www.facebook.com/hellasmetallica/videos/316624822692595/",
+    "hasFinished":true
   },
   {
-    "chapter":"Garage Inc. Colombia / Metallicolombia / The Bogota Straw / The Snake Pit / Lords of Hardwired",
-    "band":"Fisura",
-    "country":"Colombia",
-    "countryCode":"co",
-    "startTime": "2020-06-27T15:00:00.000-06:00",
-    "link":"https://www.facebook.com/events/1393070404209733/"
+    "chapter": "Garage Inc. Colombia / Metallicolombia / The Bogota Straw / The Snake Pit / Lords of Hardwired",
+    "band": "Fisura",
+    "country": "Colombia",
+    "countryCode": "co",
+    "startTime": "2020-06-27T15:40:00.000-06:00",
+    "link": "https://www.facebook.com/Fisuraoficial/videos/738022820280200/",
+    "hasFinished":true
   },
   {
-    "chapter":"Costa Rica Fade To Black",
-    "band":"Whiplash",
-    "country":"Costa Rica",
-    "countryCode":"cr",
-    "startTime": "2020-06-27T16:40:00.000-06:00",
-    "link":"https://www.facebook.com/events/933760847097391/"
-  },
-  {
-    "chapter":"Argentina For All",
-    "band":"MotorBreath",
-    "country":"Argentina",
-    "countryCode":"ar",
+    "chapter": "Costa Rica Fade To Black",
+    "band": "Whiplash",
+    "country": "Costa Rica",
+    "countryCode": "cr",
     "startTime": "2020-06-27T17:00:00.000-06:00",
-    "link":"https://www.facebook.com/events/262627078168957/"
+    "link": "https://www.facebook.com/watch/live/?v=293525825364549",
+    "hasFinished":true
   },
   {
-    "chapter":"Master of Paraguay",
-    "band":"Overgod",
-    "country":"Paraguay",
-    "countryCode":"py",
+    "chapter": "Argentina For All",
+    "band": "MotorBreath",
+    "country": "Argentina",
+    "countryCode": "ar",
     "startTime": "2020-06-27T17:40:00.000-06:00",
-    "link":"https://www.facebook.com/events/577664293168045/"
+    "link": "https://www.facebook.com/watch/live/?v=276895940302742",
+    "hasFinished":true
   },
   {
-    "chapter":"Chilean Destroy",
-    "band":"AnesthesiA",
-    "country":"Chile",
-    "countryCode":"cl",
+    "chapter": "Chilean Destroy",
+    "band": "AnesthesiA",
+    "country": "Chile",
+    "countryCode": "cl",
     "startTime": "2020-06-27T18:20:00.000-06:00",
-    "link":"https://www.facebook.com/Tributoametallica/"
+    "link": "https://www.facebook.com/chileandestroy/videos/197551631588616",
+    "hasFinished":true
   },
   {
-    "chapter":"Mexican Militia / DGO Gives you Heavy!",
-    "band":"Revenge",
-    "country":"México",
-    "countryCode":"mx",
+    "chapter": "Master of Paraguay",
+    "band": "Overgod",
+    "country": "Paraguay",
+    "countryCode": "py",
     "startTime": "2020-06-27T19:00:00.000-06:00",
-    "link":"https://www.facebook.com/events/265022658079840/"
+    "link": "https://www.facebook.com/MasterOfParaguay/videos/712710086210699/",
+    "hasFinished":true
+  },
+  
+  {
+    "chapter": "Mexican Militia / DGO Gives you Heavy!",
+    "band": "Revenge",
+    "country": "México",
+    "countryCode": "mx",
+    "startTime": "2020-06-27T19:40:00.000-06:00",
+    "link": "https://www.facebook.com/MexicanMilitiaChapter/videos/555971691763991/",
+    "style": {
+      "width": "91%"
+    },
+    "hasFinished":true
   },
   {
-    "chapter":"Chile To Self Destruct",
-    "band":"Self Destruct",
-    "country":"Chile",
-    "countryCode":"cl",
+    "chapter": "Chile To Self Destruct",
+    "band": "Self Destruct",
+    "country": "Chile",
+    "countryCode": "cl",
     "startTime": "2020-06-27T20:00:00.000-06:00",
-    "link":"https://www.facebook.com/pg/CHTSD504"
+    "link": "https://www.facebook.com/CHTSD504/videos/2636851693082840/",
+    "hasFinished":true
   },
   {
-    "chapter":"Mexitallica",
-    "band":"MexitallicaJam",
-    "country":"México",
-    "countryCode":"mx",
+    "chapter": "Chile To Self Destruct",
+    "band": "Self Destruct",
+    "country": "Chile",
+    "countryCode": "cl",
+    "startTime": "2020-06-27T20:30:00.000-06:00",
+    "link": "https://www.facebook.com/CHTSD504/videos/906122033230934/",
+    "hasFinished":true
+  },
+  {
+    "chapter": "Mexitallica",
+    "band": "Mexitallica Jam",
+    "country": "México",
+    "countryCode": "mx",
     "startTime": "2020-06-27T21:00:00.000-06:00",
-    "link":"https://www.facebook.com/pg/MexitallicaChapter"
+    "link": "https://www.facebook.com/MexitallicaChapter/videos/2545659375697744/",
+    "hasFinished":true
   },
   {
-    "chapter":"Harvesters of Utah",
-    "band":"The Four Horsemen",
-    "country":"USA",
-    "countryCode":"us",
+    "chapter": "Harvesters of Utah",
+    "band": "The Four Horsemen",
+    "country": "USA",
+    "countryCode": "us",
     "startTime": "2020-06-27T22:00:00.000-06:00",
-    "link":"https://www.facebook.com/events/182280163203405/"
+    "link": "https://www.facebook.com/harvestersofutah/videos/267476904676422/",
+    "hasFinished":true
   }
 ]

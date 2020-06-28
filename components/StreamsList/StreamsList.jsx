@@ -6,7 +6,7 @@ export default function StreamsList ({ streams = [] }) {
   return (
     <ul className={styles.streamsList}>
       {streams.map(stream => {
-        return <StreamListItem key={stream.band} stream={stream} />
+        return <StreamListItem key={stream.band + stream.startTime} stream={stream} />
       })}
       {streams.length === 0 && (
         <div className={styles.emptyList}>

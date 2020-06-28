@@ -3,7 +3,7 @@ import styles from './StreamPreview.module.scss'
 import FacebookVideo from '../FacebookVideo'
 import YoutubeVideo from '../YoutubeVideo'
 
-export default function StreamPreview ({ link }) {
+export default function StreamPreview ({ link, style }) {
   const isFacebookVideo = /.*facebook.*videos.*/g.test(link)
   const isFacebookEvent = /.*facebook.*events.*/g.test(link)
   const isYoutubeVideo = /.*youtube.*embed/g.test(link)
@@ -11,7 +11,7 @@ export default function StreamPreview ({ link }) {
   return (
     <div className={styles.streamPreview}>
       {isFacebookVideo && (
-        <FacebookVideo url={link} className={styles.facebookVideo} />
+        <FacebookVideo url={link} className={styles.facebookVideo} style={style} />
       )}
       {isYoutubeVideo && (
         <YoutubeVideo url={link} className={styles.youtubeVideo} />

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function FacebookVideo ({ url, className }) {
+export default function FacebookVideo ({ url, className, style }) {
   const src = `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(url)}&show_text=false`
   return (
     <div className={className}>
@@ -11,6 +11,7 @@ export default function FacebookVideo ({ url, className }) {
         allowtransparency='true'
         allow='encrypted-media'
         allowFullScreen
+        style={style}
       />
     </div>
   )

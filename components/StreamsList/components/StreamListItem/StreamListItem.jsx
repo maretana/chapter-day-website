@@ -32,7 +32,7 @@ export default function StreamListItem ({ stream }) {
         {isFuture && (
           <p className={styles.countdown}>Remaining time: {displayTime()}</p>
         )}
-        <StreamPreview link={stream.link} />
+        <StreamPreview link={stream.link} style={stream.style} />
       </div>
     </li>
   )
